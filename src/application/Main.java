@@ -14,6 +14,7 @@ public class Main {
 		
 		System.out.println(seller);
 		System.out.println("Teste");
+		System.out.println("Outro teste");
 		
 	}
 
