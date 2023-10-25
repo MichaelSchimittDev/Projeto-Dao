@@ -10,10 +10,14 @@ public class Main2 {
 		
 		DepartmentDao departmentDao = DaoFactory.createDepartmentDao();
 		
-		System.out.println("=== Test 1 Deparment Insert");
+		System.out.println("=== Test 1 Deparment Insert ===");
 		Department newDepartment = new Department(null, "Foods");
 		departmentDao.insert(newDepartment);
 		System.out.println("Insert is Done! New Id: " + newDepartment.getId());
+		
+		System.out.println();
+		System.out.println("=== Test 2 Department Update ===");
+		
 
 	}
 
